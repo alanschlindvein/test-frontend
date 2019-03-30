@@ -8,7 +8,7 @@ const GET_STATUS_SUCCESS = '@user/GET_STATUS_SUCCESS';
 
 export const types = {
   GET_STATUS_REQUEST,
-  GET_STATUS_SUCCESS
+  GET_STATUS_SUCCESS,
 };
 
 /* actions */
@@ -24,5 +24,6 @@ const getStatus = filter => async dispatch => {
 };
 
 export const actions = {
-  getStatus
+  getStatus,
+  updateStatus,
 };
