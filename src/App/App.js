@@ -28,10 +28,6 @@ const AppContent = styled.div`
   overflow: hidden auto;
 `;
 
-/* Dear dev evaluating this "masterpiece". Do you know what this app needs?
-A better layout. Give me more time beyond those 8 hours it has took me to be
-built and I'll delivery a way better, sexy and gorgeous layout! */
-
 export class App extends React.PureComponent {
   static propTypes = {
     /* user state */
